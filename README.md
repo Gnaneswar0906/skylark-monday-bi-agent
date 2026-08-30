@@ -585,7 +585,7 @@ Records excluded from the calculation are reported to the user.
 
 ---
 
-# 12. Sector Performance
+# 13. Sector Performance
 
 The agent can analyze sectors such as:
 
@@ -614,7 +614,7 @@ For a selected sector, the system can calculate:
 
 ---
 
-# 13. Work Order Analytics
+# 14. Work Order Analytics
 
 Operational metrics include:
 
@@ -631,7 +631,7 @@ Operational metrics include:
 
 ---
 
-# 14. Financial Analytics
+# 15. Financial Analytics
 
 The system supports:
 
@@ -663,7 +663,7 @@ and identifies collection-related risks.
 
 ---
 
-# 15. Cross-Board Analysis
+# 16. Cross-Board Analysis
 
 One of the main capabilities of the application is combining Deals and Work Orders.
 
@@ -698,7 +698,7 @@ The final answer provides a unified business assessment.
 
 ---
 
-# 16. Query Understanding
+# 17. Query Understanding
 
 Natural-language questions are converted into a structured intent.
 
@@ -739,7 +739,7 @@ clarification_required
 
 ---
 
-# 17. Deterministic Analytics
+# 18. Deterministic Analytics
 
 The LLM is NOT responsible for calculating business numbers.
 
@@ -765,7 +765,7 @@ This prevents arithmetic errors and reduces hallucination risk.
 
 ---
 
-# 18. Clarifying Questions
+# 19. Clarifying Questions
 
 The agent asks for clarification when a question is too ambiguous.
 
@@ -793,7 +793,7 @@ The agent should not make an arbitrary assumption when ambiguity could materiall
 
 ---
 
-# 19. Executive Response Format
+# 20. Executive Response Format
 
 Business responses are structured approximately as:
 
@@ -833,7 +833,7 @@ The response should be concise enough for a founder or executive while still exp
 
 ---
 
-# 20. Leadership Update
+# 21. Leadership Update
 
 The application provides a leadership-update capability.
 
@@ -894,7 +894,7 @@ The leadership-update interpretation is:
 
 ---
 
-# 21. User Interface
+# 22. User Interface
 
 The main interface contains:
 
@@ -948,7 +948,7 @@ The user can request fresh data from Monday.com.
 
 ---
 
-# 22. Caching
+# 23. Caching
 
 A short server-side cache may be used to reduce unnecessary Monday.com API requests.
 
@@ -960,7 +960,7 @@ The UI displays the latest refresh timestamp.
 
 ---
 
-# 23. Error Handling
+# 24. Error Handling
 
 The system gracefully handles:
 
@@ -988,7 +988,7 @@ Technical details are logged server-side without exposing secrets.
 
 ---
 
-# 24. Development Fixtures
+# 25. Development Fixtures
 
 The supplied datasets are used as development fixtures.
 
@@ -1019,7 +1019,7 @@ This allows the analytics engine to be tested without repeatedly calling Monday.
 
 ---
 
-# 25. Local Development
+# 26. Local Development
 
 ## Prerequisites
 
