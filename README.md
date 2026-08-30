@@ -253,7 +253,7 @@ This keeps the system lightweight and maintainable while satisfying the assignme
 
 ---
 
-# 6. Data Sources
+# 5. Data Sources
 
 The application uses two Monday.com boards.
 
