@@ -312,7 +312,7 @@ These fields are converted into a canonical `WorkOrderRecord`.
 
 ---
 
-# 7. Monday.com Configuration
+# 6. Monday.com Configuration
 
 Create two separate boards in Monday.com.
 
@@ -358,7 +358,7 @@ The application does not rely on hardcoded Monday column IDs.
 
 ---
 
-# 8. Environment Variables
+# 7. Environment Variables
 
 Create a `.env.local` file for local development.
 
@@ -381,7 +381,7 @@ Never commit `.env.local` or real API credentials to GitHub.
 
 ---
 
-# 9. Security
+# 8. Security
 
 Sensitive credentials are handled exclusively on the server.
 
@@ -404,7 +404,7 @@ The Monday.com integration is strictly read-only.
 
 ---
 
-# 10. Monday.com API Integration
+# 9. Monday.com API Integration
 
 The application uses the Monday.com GraphQL API.
 
@@ -440,7 +440,7 @@ This avoids assuming that Monday column IDs are identical across different envir
 
 ---
 
-# 11. Data Normalization
+# 10. Data Normalization
 
 The application contains a dedicated normalization layer.
 
@@ -507,7 +507,7 @@ Deal Value = 0
 
 ---
 
-# 12. Data Quality
+# 11. Data Quality
 
 The application generates a data-quality report containing:
 
@@ -539,7 +539,7 @@ This ensures that incomplete source data does not silently produce misleading bu
 
 ---
 
-# 13. Business Intelligence Metrics
+# 12. Business Intelligence Metrics
 
 ## Pipeline
 
@@ -585,7 +585,7 @@ Records excluded from the calculation are reported to the user.
 
 ---
 
-# 14. Sector Performance
+# 12. Sector Performance
 
 The agent can analyze sectors such as:
 
@@ -614,7 +614,7 @@ For a selected sector, the system can calculate:
 
 ---
 
-# 15. Work Order Analytics
+# 13. Work Order Analytics
 
 Operational metrics include:
 
@@ -631,7 +631,7 @@ Operational metrics include:
 
 ---
 
-# 16. Financial Analytics
+# 14. Financial Analytics
 
 The system supports:
 
@@ -663,7 +663,7 @@ and identifies collection-related risks.
 
 ---
 
-# 17. Cross-Board Analysis
+# 15. Cross-Board Analysis
 
 One of the main capabilities of the application is combining Deals and Work Orders.
 
@@ -698,7 +698,7 @@ The final answer provides a unified business assessment.
 
 ---
 
-# 18. Query Understanding
+# 16. Query Understanding
 
 Natural-language questions are converted into a structured intent.
 
@@ -739,7 +739,7 @@ clarification_required
 
 ---
 
-# 19. Deterministic Analytics
+# 17. Deterministic Analytics
 
 The LLM is NOT responsible for calculating business numbers.
 
@@ -765,7 +765,7 @@ This prevents arithmetic errors and reduces hallucination risk.
 
 ---
 
-# 20. Clarifying Questions
+# 18. Clarifying Questions
 
 The agent asks for clarification when a question is too ambiguous.
 
@@ -793,7 +793,7 @@ The agent should not make an arbitrary assumption when ambiguity could materiall
 
 ---
 
-# 21. Executive Response Format
+# 19. Executive Response Format
 
 Business responses are structured approximately as:
 
@@ -833,7 +833,7 @@ The response should be concise enough for a founder or executive while still exp
 
 ---
 
-# 22. Leadership Update
+# 20. Leadership Update
 
 The application provides a leadership-update capability.
 
@@ -894,7 +894,7 @@ The leadership-update interpretation is:
 
 ---
 
-# 23. User Interface
+# 21. User Interface
 
 The main interface contains:
 
@@ -948,7 +948,7 @@ The user can request fresh data from Monday.com.
 
 ---
 
-# 24. Caching
+# 22. Caching
 
 A short server-side cache may be used to reduce unnecessary Monday.com API requests.
 
@@ -960,7 +960,7 @@ The UI displays the latest refresh timestamp.
 
 ---
 
-# 25. Error Handling
+# 23. Error Handling
 
 The system gracefully handles:
 
@@ -988,7 +988,7 @@ Technical details are logged server-side without exposing secrets.
 
 ---
 
-# 26. Development Fixtures
+# 24. Development Fixtures
 
 The supplied datasets are used as development fixtures.
 
@@ -1019,7 +1019,7 @@ This allows the analytics engine to be tested without repeatedly calling Monday.
 
 ---
 
-# 27. Local Development
+# 25. Local Development
 
 ## Prerequisites
 
@@ -1074,7 +1074,7 @@ http://localhost:3000
 
 ---
 
-# 28. Testing
+# 26. Testing
 
 Run:
 
@@ -1105,7 +1105,7 @@ Tests should cover:
 
 ---
 
-# 29. Production Validation
+# 27. Production Validation
 
 Before deployment, run:
 
@@ -1122,7 +1122,7 @@ The application should then be tested against the live Monday.com boards.
 
 ---
 
-# 30. Vercel Deployment
+# 28. Vercel Deployment
 
 The application is designed for deployment on Vercel.
 
@@ -1150,7 +1150,7 @@ Do not expose secrets through client-side environment variables.
 
 ---
 
-# 31. Production Acceptance Tests
+# 29. Production Acceptance Tests
 
 The deployed application should successfully handle:
 
@@ -1224,7 +1224,7 @@ The final query should trigger clarification rather than an arbitrary assumption
 
 ---
 
-# 32. Important Design Decisions
+# 30. Important Design Decisions
 
 ## Why Next.js?
 
@@ -1266,7 +1266,7 @@ TypeScript is used for:
 
 ---
 
-# 33. Limitations
+# 31. Limitations
 
 The prototype intentionally focuses on the assignment requirements.
 
@@ -1285,7 +1285,7 @@ Potential future improvements include:
 
 ---
 
-# 34. Future Architecture
+# 32. Future Architecture
 
 With additional development time, the system could evolve into:
 
@@ -1311,7 +1311,7 @@ With additional development time, the system could evolve into:
 
 ---
 
-# 35. Assignment Requirement Mapping
+# 33. Assignment Requirement Mapping
 
 | Assignment Requirement | Implementation |
 |---|---|
@@ -1338,7 +1338,7 @@ With additional development time, the system could evolve into:
 
 ---
 
-# 36. Security Checklist
+# 34. Security Checklist
 
 Before submission:
 
@@ -1354,7 +1354,7 @@ Before submission:
 
 ---
 
-# 37. Final Submission
+# 35. Final Submission
 
 The final submission should contain:
 
@@ -1385,7 +1385,7 @@ FINAL_CHECKLIST.md
 
 ---
 
-# 38. Project Goal
+# 36. Project Goal
 
 The goal of this project is not simply to create a chatbot.
 
