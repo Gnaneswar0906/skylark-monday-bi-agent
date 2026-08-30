@@ -1074,7 +1074,7 @@ http://localhost:3000
 
 ---
 
-# 26. Testing
+# 27. Testing
 
 Run:
 
@@ -1105,7 +1105,7 @@ Tests should cover:
 
 ---
 
-# 27. Production Validation
+# 28. Production Validation
 
 Before deployment, run:
 
@@ -1122,7 +1122,7 @@ The application should then be tested against the live Monday.com boards.
 
 ---
 
-# 28. Vercel Deployment
+# 29. Vercel Deployment
 
 The application is designed for deployment on Vercel.
 
@@ -1150,7 +1150,7 @@ Do not expose secrets through client-side environment variables.
 
 ---
 
-# 29. Production Acceptance Tests
+# 30. Production Acceptance Tests
 
 The deployed application should successfully handle:
 
@@ -1224,7 +1224,7 @@ The final query should trigger clarification rather than an arbitrary assumption
 
 ---
 
-# 30. Important Design Decisions
+# 31. Important Design Decisions
 
 ## Why Next.js?
 
@@ -1266,7 +1266,7 @@ TypeScript is used for:
 
 ---
 
-# 31. Limitations
+# 32. Limitations
 
 The prototype intentionally focuses on the assignment requirements.
 
@@ -1285,7 +1285,7 @@ Potential future improvements include:
 
 ---
 
-# 32. Future Architecture
+# 33. Future Architecture
 
 With additional development time, the system could evolve into:
 
@@ -1311,7 +1311,7 @@ With additional development time, the system could evolve into:
 
 ---
 
-# 33. Assignment Requirement Mapping
+# 34. Assignment Requirement Mapping
 
 | Assignment Requirement | Implementation |
 |---|---|
@@ -1338,7 +1338,7 @@ With additional development time, the system could evolve into:
 
 ---
 
-# 34. Security Checklist
+# 35. Security Checklist
 
 Before submission:
 
@@ -1354,7 +1354,7 @@ Before submission:
 
 ---
 
-# 35. Final Submission
+# 36. Final Submission
 
 The final submission should contain:
 
@@ -1385,7 +1385,7 @@ FINAL_CHECKLIST.md
 
 ---
 
-# 36. Project Goal
+# 37. Project Goal
 
 The goal of this project is not simply to create a chatbot.
 
